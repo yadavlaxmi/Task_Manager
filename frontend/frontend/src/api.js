@@ -1,4 +1,4 @@
-const BASE_URL = "process.env.REACT_APP_API_URL"; // Update with your backend URL
+const BASE_URL = process.env.REACT_APP_API_URL; // Update with your backend URL
 
 export const getTasks = async () => {
   const response = await fetch(`${BASE_URL}/tasks`);
