@@ -1,4 +1,4 @@
-const BASE_URL = "https://task-manager-26r9.onrender.com"; // Update with your backend URL
+const BASE_URL = "https://task-manager-26r9.onrender.com/api"; // Update with your backend URL
 
 export const getTasks = async () => {
   const response = await fetch(`${BASE_URL}/tasks`);
